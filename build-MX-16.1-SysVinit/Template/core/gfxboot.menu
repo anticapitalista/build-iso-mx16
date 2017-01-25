@@ -1,0 +1,8 @@
+; Core flavour menu
+key.F1=help
+key.F2=lang
+key.F3=timezone
+key.F4=mx-options
+key.F5=persist
+key.F6=safeboot
+key.F7=console

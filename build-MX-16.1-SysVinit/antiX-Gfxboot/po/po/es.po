@@ -1,0 +1,164 @@
+# LANGUAGE translations for boot loader
+# Copyright (C) 2005 SUSE Linux GmbH
+# 
+# Translators:
+# Translators:
+# Richard  Holt <richard.holt@gmail.com>, 2016
+# Roberto Saravia <jratlsv2@racsa.co.cr>, 2015
+msgid ""
+msgstr ""
+"Project-Id-Version: antix-development\n"
+"PO-Revision-Date: 2016-06-03 10:33+0000\n"
+"Last-Translator: Richard  Holt <richard.holt@gmail.com>\n"
+"Language-Team: Spanish (http://www.transifex.com/anticapitalista/antix-development/language/es/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: es\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. ok button label
+#. txt_ok
+msgid "OK"
+msgstr "Está bien"
+
+#. cancel button label
+#. txt_cancel
+msgid "Cancel"
+msgstr "Cancelar"
+
+#. txt_boot_harddisk
+msgid "Boot from Hard Disk"
+msgstr "Iniciar desde el Disco Duro"
+
+#. txt_memtest
+msgid "Memory Test"
+msgstr "Comprobación de la memoria"
+
+#. txt_bootoptions
+msgid "Boot Options"
+msgstr "Opciones de inicio"
+
+#. window title for exit dialog
+#. txt_exit_title (see txt_exit_dialog)
+msgid "Exiting..."
+msgstr "Saliendo..."
+
+#. txt_help
+msgid "Help"
+msgstr "Ayuda"
+
+#. power off dialog title
+#. txt_power_off_title
+msgid "Power Off"
+msgstr "Apagar"
+
+#. txt_power_off
+msgid "Halt the system now?"
+msgstr "¿Desea detener el sistema ahora?"
+
+#. label for language selection
+#. txt_language
+msgid "Language"
+msgstr "Idioma"
+
+#. video mode/display size menu title
+#. ** please keep it really short (comparable to the english text) **
+#. txt_video_mode
+msgid "Video Mode"
+msgstr "Video"
+
+#. Like automatic, not automobile.
+#. txt_auto
+msgid "auto"
+msgstr "automático"
+
+#. Perform md5 check. "md5" should not be translated?
+#. txt_check_md5
+msgid "check md5"
+msgstr "comprobar md5"
+
+#. Title for console resolution menu.  Please keep it short.
+#. txt_console
+msgid "Console"
+msgstr "Consola"
+
+#. As in "the default option".  Please keep it short.
+#. txt_default
+msgid "default"
+msgstr "por defecto"
+
+#. Title of menu to select desktop program.
+#. txt_desktop
+msgid "Desktop"
+msgstr "Escritorio"
+
+#. Default for Options menu.  Please keep it short.
+#. txt_none
+msgid "none"
+msgstr "ninguno"
+
+#. Enable automatic mounting.
+#. txt_automount
+msgid "auto mount"
+msgstr "automontaje"
+
+#. Title of Options menu.  Please keep it short.
+#. txt_options
+msgid "Options"
+msgstr "Opciones"
+
+#. Title of Time Zone menu.
+#. txt_timezone
+msgid "Timezone"
+msgstr "Zona horaria"
+
+#. Please keep it short like the English
+#. txt_off
+msgid "off"
+msgstr "apagado"
+
+#. Please keep it short like the English
+#. txt_menus
+msgid "menus"
+msgstr "menús"
+
+#. Please keep it short like the English
+#. txt_custom
+msgid "custom"
+msgstr "personalizado"
+
+#. Please keep it short like the English
+#. txt_both
+msgid "both"
+msgstr "ambos"
+
+#. Please keep it short like the English
+#. txt_reset
+msgid "reset"
+msgstr "reajustar"
+
+#. Please keep it short like the English
+#. txt_save
+msgid "Save"
+msgstr "Guardar"
+
+#. txt_reboot
+msgid "Reboot"
+msgstr "Reiniciar"
+
+#. txt_safe_video_mode
+msgid "Safe Video Mode"
+msgstr "Modo de Vídeo Seguro"
+
+#. txt_failsafe_boot
+msgid "Failsafe Boot"
+msgstr "Inicio a prueba de fallos"
+
+#. txt_command_line_boot
+msgid "Command Line Boot"
+msgstr "Inicio desde la línea de comandos"
+
+#. txt_fast_boot
+msgid "Fast Boot"
+msgstr "Inicio rapido"

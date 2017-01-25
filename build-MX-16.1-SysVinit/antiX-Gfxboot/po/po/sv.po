@@ -1,0 +1,163 @@
+# LANGUAGE translations for boot loader
+# Copyright (C) 2005 SUSE Linux GmbH
+# 
+# Translators:
+# Translators:
+# Henry Oquist <henryoquist@comhem.se>, 2015-2016
+msgid ""
+msgstr ""
+"Project-Id-Version: antix-development\n"
+"PO-Revision-Date: 2016-06-03 09:26+0000\n"
+"Last-Translator: Henry Oquist <henryoquist@comhem.se>\n"
+"Language-Team: Swedish (http://www.transifex.com/anticapitalista/antix-development/language/sv/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: sv\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. ok button label
+#. txt_ok
+msgid "OK"
+msgstr "OK"
+
+#. cancel button label
+#. txt_cancel
+msgid "Cancel"
+msgstr "Avbryt"
+
+#. txt_boot_harddisk
+msgid "Boot from Hard Disk"
+msgstr "Starta från hårddisk"
+
+#. txt_memtest
+msgid "Memory Test"
+msgstr "Minnestest"
+
+#. txt_bootoptions
+msgid "Boot Options"
+msgstr "Startalternativ"
+
+#. window title for exit dialog
+#. txt_exit_title (see txt_exit_dialog)
+msgid "Exiting..."
+msgstr "Avslutar..."
+
+#. txt_help
+msgid "Help"
+msgstr "Hjälp"
+
+#. power off dialog title
+#. txt_power_off_title
+msgid "Power Off"
+msgstr "Stäng av"
+
+#. txt_power_off
+msgid "Halt the system now?"
+msgstr "Vill du stänga av systemet nu?"
+
+#. label for language selection
+#. txt_language
+msgid "Language"
+msgstr "Språk"
+
+#. video mode/display size menu title
+#. ** please keep it really short (comparable to the english text) **
+#. txt_video_mode
+msgid "Video Mode"
+msgstr "Videoläge"
+
+#. Like automatic, not automobile.
+#. txt_auto
+msgid "auto"
+msgstr "auto"
+
+#. Perform md5 check. "md5" should not be translated?
+#. txt_check_md5
+msgid "check md5"
+msgstr "Kolla md5"
+
+#. Title for console resolution menu.  Please keep it short.
+#. txt_console
+msgid "Console"
+msgstr "Kommandoprompt"
+
+#. As in "the default option".  Please keep it short.
+#. txt_default
+msgid "default"
+msgstr "standard"
+
+#. Title of menu to select desktop program.
+#. txt_desktop
+msgid "Desktop"
+msgstr "Skrivbord"
+
+#. Default for Options menu.  Please keep it short.
+#. txt_none
+msgid "none"
+msgstr "ingen"
+
+#. Enable automatic mounting.
+#. txt_automount
+msgid "auto mount"
+msgstr "automontera"
+
+#. Title of Options menu.  Please keep it short.
+#. txt_options
+msgid "Options"
+msgstr "Valmöjligheter"
+
+#. Title of Time Zone menu.
+#. txt_timezone
+msgid "Timezone"
+msgstr "Tidszon"
+
+#. Please keep it short like the English
+#. txt_off
+msgid "off"
+msgstr "av"
+
+#. Please keep it short like the English
+#. txt_menus
+msgid "menus"
+msgstr "menyer"
+
+#. Please keep it short like the English
+#. txt_custom
+msgid "custom"
+msgstr "anpassad"
+
+#. Please keep it short like the English
+#. txt_both
+msgid "both"
+msgstr "båda"
+
+#. Please keep it short like the English
+#. txt_reset
+msgid "reset"
+msgstr "återställ"
+
+#. Please keep it short like the English
+#. txt_save
+msgid "Save"
+msgstr "Spara"
+
+#. txt_reboot
+msgid "Reboot"
+msgstr "Starta om"
+
+#. txt_safe_video_mode
+msgid "Safe Video Mode"
+msgstr "Säkert Videoläge"
+
+#. txt_failsafe_boot
+msgid "Failsafe Boot"
+msgstr "Felsäker Start"
+
+#. txt_command_line_boot
+msgid "Command Line Boot"
+msgstr "Kommandolinje-Start"
+
+#. txt_fast_boot
+msgid "Fast Boot"
+msgstr "Snabbstart"

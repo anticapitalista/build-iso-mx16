@@ -1,0 +1,881 @@
+<html>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<body>
+    <dum/>
+<div id="">
+
+</div>
+
+<div id="main">
+<h3>
+<a name="main">Help</a>
+</h3>
+
+<p>
+WELCOME to %DISTRO% Linux (%CODE_NAME%)!
+</p>
+<p>
+The <em>demo</em> user password is "<em>demo</em>" (no quotes)<br/>
+The <em>root</em> password is "<em>root</em>" (no quotes)<br/>
+</p>
+<p>
+<ul>
+    <li><a href="#help">           F1 Help System</a></li>
+    <li><a href="#language">       F2 Select Language</a></li>
+    <li><a href="#timezone">       F3 Select Timezone</a></li>
+    <li><a href="#options">        F4 Miscellaneous Options</a></li>
+    <li><a href="#persist+frugal"> F5 Persistence and Frugal Options</a></li>
+    <li><a href="#failsafe">       F6 Failsafe Booting and Safe Video Options</a></li>
+    <li><a href="#console">        F7 Set Text Console Resolution </a></li>
+    <li><a href="#save">           F8 Save Bootloader Settings</a></li>
+</ul>
+</p>
+
+<p>
+<ul>
+    <li><a href="#main_menu">   Main Menu Entries</a></li>
+    <li><a href="#main_options">   Main Menu Boot Options</a></li>
+    <li><a href="#bo_instruct"> Other Boot Options</a></li>
+    <li><a href="#about">       About MX Linux</a></li>
+</ul>
+</p>
+
+<p>
+<em>Tip:</em> press [<em>Esc</em>] at any time to leave the help system.
+</p>
+
+</div>
+
+<div id="help">
+<h3>
+<a name="help">Using the Help System</a>
+</h3>
+
+<p>
+The help system consists of a set of linked pages that you can navigate
+through with the following keys.
+<p>
+
+<ul>
+    <li>[<em>Up Arrow</em>] -- highlight previous link</li>
+    <li>[<em>Down Arrow</em>] -- highlight next link</li>
+    <li>[<em>Left Arrow</em>], [<em>Backspace</em>] -- return to previous page</li>
+    <li>[<em>Right Arrow</em>], [<em>Enter</em>, [<em>Space</em>] -- follow link</li>
+    <li>[<em>Page Up</em>], [<em>Home</em>] -- go to first link on page</li>
+    <li>[<em>Page Down</em>], [<em>End</em>] -- go to last link on page</li>
+
+    <li>[<em>Esc</em>] -- leave help</li>
+</ul>
+
+<p>
+<em>Tip:</em> use [<em>Left Arrow</em>] or [<em>Backspace</em>] to go back to your place
+(same highlighted link) on the previous page.
+</p>
+
+<p>
+Go to <a href="#general-help"> General Help</a>
+</p>
+
+<p>
+Return to the <a href="#main">Main Menu</a>
+</p>
+
+</div>
+
+<div id="general-help">
+<h3>
+<a name="general-help">General Help</a>
+</h3>
+
+<p>
+This bootloader lets you select what to boot: <em>MX
+Linux</em>, <em>hard drive boot</em>, or <em>memtest</em>.
+In the case of MX Linux you can select which boot parameters
+(cheat codes) get set.  There are three ways to enter information: </p>
+
+<ul>
+    <li>
+    <em>Main Menu</em><br/>
+    [<em>Up Arrow</em>] and [<em>Down Arrow</em>] select which
+    program to run and some boot options. [<em>Enter</em>]
+    starts the boot process.<br/>
+    </li>
+    <li>
+    <em>Boot Options</em><br/>
+    [<em>Left Arrow</em>], [<em>Right Arrow</em>], and
+    [<em>Backspace</em>] edit some main menu options directly.
+    You can also type in new options.<br/>
+    </li>
+    <li>
+    <em>Function Key Pop-up Menus</em><br/>
+    [<em>F2</em>] through [<em>F8</em>] open menus. Navigate them
+    with the arrow keys.  [<em>Enter</em>] selects highlighted option.
+    [<em>Esc</em>] leaves the pop-up menu without selecting an entry.
+    </li>
+
+</ul>
+
+<p>
+<em>Tip:</em> press [<em>F12</em>] to see all the currently selected
+boot options.
+</p>
+
+<p>
+Go to <a href="#help"> Using the Help System</a><br/>
+Return to the <a href="#main">Main Menu</a>
+</p>
+
+</div>
+
+<div id="language">
+<h3>
+<a name="language">F2: Select Language</a>
+</h3>
+
+<p>
+Press [<em>F2</em>] to get a list of supported languages.  Select
+your language.  In addition to setting the language, this option
+will also set the keyboard layout and timezone.  If your country
+has more than one timezone then use the <em>F3 Timezone</em> menu
+to explicitly set the timezone for your area.  </p>
+
+<p>
+This menu is an easy shortcut for entering
+<em>lang=[language-code]</em> directly
+on the boot options line.
+</p>
+
+<p>
+The default language is <em>American English</em>.
+</p>
+
+<p>
+Return to the <a href="#main">Main Menu</a>
+</p>
+</div>
+
+<div id="timezone">
+<h3>
+<a name="timezone">F3: Select Timezone</a>
+</h3>
+
+<p>
+Press [<em>F3</em>] to get a list of cities in various time
+zones.  The cities are listed in time zone order so they circle
+the globe eastward.  If your area uses Daylight Savings Time then
+make sure you select a city that does also.  These cities are
+marked with a trailing <em>*</em> (asterisk).  Your system will
+be started using the timezone selected.
+</p>
+
+<p>
+
+The menu is an easy shortcut for entering
+<em>tz=[your-timezone]</em> directly on the boot line.
+<p>
+
+<p>
+The default time zone is <em>Eastern Time</em> (EST or EDT
+depending on the time of year).
+</p>
+<p>
+
+<em>Tip:</em> you do not have to use this menu if you have set a
+language and your country/area has only one time-zone.
+
+</p>
+
+<p>
+Return to the <a href="#main">Main Menu</a>
+</p>
+
+</div>
+
+<div id="options">
+<h3>
+<a name="options">F4: Miscellaneous Options</a>
+</h3>
+<p>
+
+You can only select one of these options.  If you want more than one then you
+will need to type some of them in manually.  </p>
+
+<p>
+<em>checkmd5</em> -------- Check integrity of the install media.<br/>
+<em>checkfs</em> ------------ Check LiveUSB ext2/3/4 and persistent file systems.<br/>
+<em>toram</em> --------------- Copy the compressed file system to RAM. <br/>
+<em>from=usb</em> --------- Finish booting from a LiveUSB<br/>
+<em>from=hd</em> ---------- Finish booting from a hard drive<br/>
+<em>nousb2</em> ------------ Disable all usb-2 devices.<br/>
+<em>acpi=off</em> ----------- Disable ACPI.  This helps on some older laptops.<br/>
+<em>hwclock=utc</em> ----- Use UTC for hardware clock (Linux-only systems)<br/>
+<em>hwclock=local</em> --- Use localtime for hardware clock (Windows systems)<br/>
+<em>hwclock=ask</em> ---- Have the system help determine the clock setting<br/>
+<em>password</em> ------------ Change passwords before booting<br/>
+
+<p>
+
+See <a href="#option-details-1">Option Details One</a> for details on some of these options<br/>
+See <a href="#option-details-2">Option Details Two</a> for details on more of these options<br/>
+See <a href="#option-usb">Option Details Two</a> for LiveUSB-only options<br/>
+Return to the <a href="#main">Main Menu</a>
+
+</p>
+</div>
+
+<div id="options-usb">
+<h3>
+<a name="usb-options">F4: LiveUSB Options</a>
+</h3>
+<p>
+These options only work in LiveUSBs (or frugal installs).  LiveUSB-Storage
+and saving files across reboots are both enabled by default.  These options
+eare "sticky".  They are remembered across reboots.  Therefore they are not
+saved in the bootloader (see <a href="save">F8 Save</a>).
+</p>
+
+<p>
+<em>nostore</em> ------ Disable the LiveUSB-Storage feature<br/>
+<em>dostore</em> --------- Enable the LiveUSB-Storage feature<br/>
+<em>savestate</em> --------- Save some files across reboots<br/>
+<em>nosavestate</em> ------  Don't save files across reboots<br/>
+</p>
+<p>
+
+See <a href="#option-details-1">Option Details One</a> for details on some of these options<br/>
+See <a href="#option-details-2">Option Details Two</a> for details on more of these options<br/>
+Return to the <a href="#main">Main Menu</a>
+
+</p>
+</div>
+
+
+<div id="option-details-1">
+<h3>
+<a name="option-details-1">F4 Option Details One</a>
+</h3>
+<p>
+
+<em>Check File Systems</em> (checkfs)<br/>
+Check all ext2/3/4 file systems used by the LiveUSB/frugal-install and
+by persistence.  Will not check a LiveCD or a LiveUSB made with a
+fat32 file system.
+
+<br/><br/>
+<em>To Ram</em> (toram)<br/>
+Copy the linuxfs file to RAM.  This takes some time during the boot
+but it will make LiveCDs and USB-1.0 LiveUSBs run much faster after
+the boot is complete.
+
+<br/><br/>
+<em>From USB</em> (from=usb)<br/>
+For machines that can't boot directly from usb, this lets you start
+booting from a LiveCD and finish booting from a LiveUSB.  It provides
+most of the features that are only available on the LiveUSB
+
+
+</p>
+<p>
+See <a href="#option-details-2">Option Details Two</a> for details on other options<br/>
+Back to <a href="#options">F4 Miscellaneous Options List</a><br/>
+Return to  <a href="#main">Main Menu</a>
+</p>
+
+</div>
+<div id="option-details-2">
+<h3>
+<a name="option-details-2">F4 Option Details Two</a>
+</h3>
+<p>
+
+<em>Hardware Clock</em> (hwclock=[utc|local])<br/>
+The hardware clock saves the time and date between boots.  If you are
+dual booting with Windows then use local, otherwise utc is best.
+
+<br/><br/>
+
+<em>Saving State</em> (savestate, nosavestate)<br/>
+These options should only appear on a LiveUSB/frugal-install.  Even if
+persistence is not enabled we will save some files for you across
+reboots which can be handy.  See the directory /antiX/state/ on the
+LiveUSB which will be created on the first boot.
+
+<br/><br/>
+<em>Use your own passwords</em> (password)<br/>
+The system will prompt you for a new root and new demo password when it boots.
+The well known default passwords are not secure.  This simple step greatly
+increases the security of your live system.
+</p>
+<p>
+See <a href="#option-details-1">Option Details One</a> for details on other options<br/>
+Back to <a href="#options">F4 Miscellaneous Options List</a><br/>
+Return to  <a href="#main">Main Menu</a>
+</p>
+
+</div>
+
+
+<div id="persist+frugal">
+<h3>
+<a name="persist+frugal">F5: Persistence and Frugal Options</a>
+</h3>
+<p>
+<em>Root Persistence</em> let you save your file system between boots and makes
+the Live system act like an installed system in many ways.  The amount of
+changes you can save this way is limited so you should periodically do
+a remaster to save all of your changes in the compressed linuxfs file and
+reset the root persistence.
+</p>
+
+<p>
+
+<em>Home persistence</em> just saves the files under the /home directory.  The
+only limit to how much you can save is how large you make the homefs file.
+If you want to save a lot of data or large files on a live system then enable
+home persistence and save the files under your home directory.
+</p>
+
+<p>
+<em>Frugal</em>, when first used, will do a "frugal" install on an existing hard
+drive partition without hurting what is already there.  You can do a frugal
+install on a Windows partition. After the first time, will boot into the
+previously created frugal system.  Works like a LiveUSB but has the speed
+of the hard drive it is installed on.
+
+</p>
+<p>
+<a href="persist">Persistence only options</a><br/>
+<a href="frugal">Frugal options</a><br/>
+Return to the <a href="#main">Main Menu</a>
+</p>
+
+</div>
+
+<div id="persist">
+<h3>
+<a name="persist">F5: Persistence Options</a>
+</h3>
+<ul>
+
+<p>
+Dynamic root persistence (the default) is fast but it is limited by how much
+RAM you have.  Static root persistence is only limited by the size of the
+rootfs file but it can be painfully slow.
+</p>
+
+<li><em>all persist </em>
+    Both root and home persistence.
+<br/>
+</li>
+
+<li><em>root persist </em>
+    Save all the changes to the file-system in RAM and then
+    transfer these changes to disk right before you shutdown or
+    reboot.
+<br/>
+</li>
+
+<li><em>static root </em>
+    Saves all your file-system changes directly to a file.  This
+    can be slow but it requires no extra RAM and no changes need
+    to be transfered when you shutdown.
+<br/>
+</li>
+
+<li><em>home persist </em>
+    Only save changes to files and directories under
+    <em>/home</em>.  This will include all of your bookmarks and
+    personal settings.  Changes are stored immediately and speed
+    is almost never an issue.
+
+</li>
+
+</ul>
+
+<a href="persist+frugal">Persistence and Frugal Introduction</a><br/>
+<a href="frugal">Frugal options</a><br/>
+Return to the <a href="#main">Main Menu</a>
+
+</div>
+
+<div id="frugal">
+<h3>
+<a name="frugal">F5: Frugal Options</a>
+</h3>
+<p>
+<em>Frugal</em> will create a frugal install on an existing partition
+if one does not already exist.  If one exits then boots directly
+into it.  This may be the fastest and easiest way to install Linux.
+Think of it as a to-disk analog of the <em>toram</em> option.
+</p>
+
+<ul>
+<li><em>frugal/persist </em>
+    Frugal plus both dynamic-root and home persistence.
+<br/></li>
+
+<li><em>frugal/root </em>
+    Frugal plus dynamic root-persistence.
+<br/></li>
+
+<li><em> frugal/static </em>
+    Frugal plus static root-persistence.
+<br/></li>
+
+<li><em>frugal/home</em>
+    Frugal plus home persistence.  
+<br/></li>
+
+<li><em>only frugal</em>
+    Only do (or boot into) a frugal installation.  No persistence is enabled.
+<br/></li>
+
+</ul>
+
+<p>
+<a href="persist+frugal">Persistence and Frugal Introduction</a><br/>
+<a href="persist">Persistence only options</a><br/>
+Return to the <a href="#main">Main Menu</a>
+</p>
+</div>
+
+<div id="old-persist">
+<p>
+<ul>
+    <li> <em> Frugal</em>
+    Copy files from the install media (LiveCD/USB) to an internal
+    hard drive partition and finish booting from that.  Think of
+    this as a to-disk analogy of <em>toram</em> boot parameter.
+<br/></li>
+
+    <li> <em> Root Persist </em>
+    Save all the changes to the file-system in RAM and then
+    transfer these changes to disk right before you shutdown or
+    reboot.  Fast, but space is limited by how much RAM you
+    have.
+<br/> </li>
+
+    <li> <em> Static Root</em>
+    Saves all your file-system changes directly to a file.  This
+    can be slow but it requires no extra RAM and no changes need
+    to be transfered when you shutdown.
+<br/></li>
+
+    <li> <em> Home Persist </em>
+    Only save changes to files and directories under
+    <em>/home</em>.  This will include all of your bookmarks and
+    personal settings.  Changes are stored immediately and speed
+    is almost never an issue.
+<br/></li>
+
+</ul>
+
+<p>
+Return to the <a href="#main">Main Menu</a>
+</p>
+</div>
+
+<div id="failsafe">
+<h3>
+<a name="failsafe">F6: Failsafe Booting and Safe Video</a>
+</h3>
+Try these options of you have trouble booting or if you can can't get
+to X-Windows (the GUI).
+
+<ul>
+
+<li> <em> Safe Video</em> In addition to using nomodeset (see below) also force
+    the use of the simple Vesa video driver.  This will lack performance and
+    2-D and 3-D acceleration but should get you to a working X-Windows GUI.
+<br/></li>
+
+<li> <em> Failsafe </em> Combines Safe Video (above) with load=all (below).
+    If you just want it to work, use this option.  The system may not be
+    optimal but it should boot.
+<br/></li>
+
+<li> <em> nomodeset</em>  Some video drivers take control of the text consoles
+    as well as the graphics screen.  If the text console goes haywire or goes
+    blank early in the boot process then try this option.
+<br/></li>
+
+<li> <em> load=all</em> If you get a warning message that the system can't
+    find the linuxfs, try this option.
+<br/></li>
+
+<li> <em> intel igfx off</em> The Intel graphics driver in some kernels
+    doesn't work on the newer Broadwell systems.  This boot parameter
+    might help.
+<br/></li>
+</ul>
+
+<p>
+Return to the <a href="#main">Main Menu</a>
+</p>
+</div>
+
+<div id="console">
+<h3>
+<a name="console">F7: Set Console Resolution</a>
+</h3>
+<p>
+
+This menu allows you to set the resolution of the virtual
+consoles using the deprecated <em>vga</em> kernel boot
+parameter.  This works well on many older systems but the codes
+for newer systems with wide screen displays are non-standard.
+For example the <em>1600x1200*</em> resolution works in Virtual
+Box but may not work elsewhere.
+
+</p>
+
+<p>
+Most newer systems support Kernel Mode Setting (KMS) which lets
+the video driver handle the consoles and automatically sets the
+highest resolution possible.
+
+</p>
+<ul>
+   <li><em>vga=788</em> 800×600</li>
+   <li><em>vga=791</em> 1024×768</li>
+   <li><em>vga=794</em> 1280×1024</li>
+   <li><em>vga=895</em> 1366x768</li>
+   <li><em>vga=980</em> 1600×900</li>
+   <li><em>vga=842</em> 1600×1200</li>
+   <li><em>vga=839</em> 1600×1200*</li>
+   <li><em>vga=ask</em> ask</li>
+</ul>
+<p>
+Return to the <a href="#main">Main Menu</a>
+</p>
+</div>
+
+
+<div id="frugal">
+<h3>
+<a name="frugal">Frugal Install</a>
+
+<p>
+Return to the <a href="#main">Main Menu</a>
+</p>
+</div>
+
+<div id="save">
+<h3>
+<a name="save">F8: Save Bootloader Settings</a>
+</h3>
+
+<p>
+On LiveUSBs and Frugal installs, the <em>F8 Save</em> menu should
+appear.   A LiveUSB made with the "dd" command acts like a LiveCD
+and does not have the <em>F8 Save</em> menu.
+
+</p>
+
+<ul>
+    <li> <em>save</em><br/>
+    Save the current function key popup menu settings as the defaults and
+    create/replace a custom main menu entry if needed for options that are
+    typed if they don't exist in the popup menus.<br/>
+    </li>
+
+    <li> <em>reset</em><br/>
+    Restore the original menu defaults.  Does not affect
+    the custom main menu entry (if one was created).
+    </li>
+
+</ul>
+<p>
+Return to the <a href="#main">Main Menu</a>
+</p>
+</div>
+
+<div id="main_menu">
+<h3>
+<a name="main_menu">Main Menu Entries</a>
+</h3>
+<p>
+    <em>MX-VERSION (DATE)</em>
+    Boot the system normally.  You can use the Function key menus
+    to select various options such as
+    <a href=#console>Console</a> resolution, various
+    <a href="#options">Options</a>, or
+    <a href="#persist">Persistence</a>.
+
+    <br/><br/>
+    The 32-bit version comes with PAE and non-PAE options.  The
+    PAE feature allows 32-bit system to access more than 4 Gig
+    of RAM but it does not work on all 32-bit processors.  We
+    suggest you try PAE first.  If you have a very old computer
+    or if PAE does not boot at all then try non-PAE.
+
+    <br/><br/> 
+    
+    <em>Boot from Hard Drive</em>
+    This will try to do a legacy (BIOS) from the first internal hard drive.
+    Windows 8 and above use UEFI instead of BIOS so this entry won't be
+    able to boot them.
+
+    <br/> <br/> <em>Test Memory</em>
+    Test the system memory without booting into any operating system.
+</p>
+<p>
+Return to the <a href="#main">Main Menu</a>
+</p>
+
+</div>
+
+<div id="main_options">
+<h3>
+<a name="main_options">Main Menu Boot Options</a>
+</h3>
+
+<p>
+These are the options that show up in the <em>Boot Options</em> box.
+<p>
+
+<em>quiet</em><br>
+Tell the kernel to <em>not</em> print a lot of debugging information to the screen.
+</p>
+
+
+
+<p>
+Return to the <a href="#main">Main Menu</a>
+</p>
+
+</div>
+
+<div id="bo_instruct">
+<h3>
+<a name="bo_instruct">Boot Option Instructions</a>
+</h3>
+
+<p>
+There are many boot options available.  They are usually only
+necessary if your system will not boot properly. To use the boot
+options just place the appropriate code in the <em>Boot
+Options</em> box at the bottom of the main screen.  You may also
+need to edit or delete options that are already in the <em>Boot
+Options</em> box.
+
+</p>
+
+<p>
+You can't make permanent changes on a LiveCD or a LiveDVD.  You
+have to enter them each time you boot.  You can make permanent
+changes on some LiveUSBs.
+
+</p>
+<p>
+Go to <a href="#boot_mx">MX Linux Boot Options</a><br/>
+Go to <a href="#mm_boot">Kernel Boot Options</a>
+</p>
+
+<p>
+Return to <a href="#main">Main Menu</a>
+</p>
+
+</div>
+<div id="boot_mx">
+<h3>
+<a name="boot_mx">MX Linux Boot Options</a>
+</h3>
+
+<p>
+These are options that are only available in MX Linux
+</p>
+
+<ul>
+    <li><em>lean</em> -- disable some services including wicd for a fast boot </li>
+    <li><em>mean</em> -- disable dhclient (Internet connection) </li>
+    <li><em>Xtralean</em> -- disable more services including NFS shares for a faster boot</li>
+    <li><em>nodbus</em> -- disable dbus service </li><br/>
+    <li><em>dpi=XX</em> -- set dpi. Default is 96</li>
+</ul>
+
+<p>
+<em>NOTE:</em> Four of these options are combined into the single
+<em>disable=</em> option.  For example <em>disable=lmx</em>.
+</p>
+
+<ul>
+    <li><em>L/l</em> lean - disable some services</li>
+    <li><em>M/m</em> mean - disable networking</li>
+    <li><em>X/x</em> Xtralean - disable more services</li>
+    <li><em>d/D</em> disable dbus</li>
+    <li><em>v</em> disable vbox services</li>
+    <li><em>n</em> disable NFS service</li>
+    <li><em>k</em> Do not set the console or X keyboard layout</li>
+    <li><em>S</em> nostore</li>
+    <li><em>P</em> enable standard PAM message-of-the-day</li>
+    <li><em>s</em> don't save state on LiveUSB systems</li>
+    <li><em>r</em> don't localize repos based on timezone</li>
+    <li><em>a</em> disable acpid</li>
+    <li><em>c1</em> set desktop-session delay in seconds. Can also use points eg c0.5</li>
+</ul>
+
+<p>
+Back to <a href="#bo_instruct">Boot Option Instructions</a><br/>
+Return to <a href="#main">Main Menu</a>
+</p>
+
+</div>
+
+<div id="mm_boot">
+<h3>
+<a name="mm_boot">Kernel Boot Options</a>
+</h3>
+
+<p>
+Select a <em>Boot Option</em> to learn more about it.
+</p>
+<ul>
+    <li><a href="#bo_acpi">ACPI</a> -- Advanced Configuration and Power Interface</li>
+    <li><a href="#bo_ide">IDE DMA</a> -- enable/disable DMA for IDE-Drives</li>
+    <li><a href="#bo_no">noXXXX</a> -- skip detection of specific hardware</li>
+    <li><a href="#bo_pci">PCI</a> -- options for non-working PS2 mice and bad PCI controllers</li>
+</ul>
+<p>
+Back to <a href="#bo_instruct">Boot Option Instructions</a><br/>
+Return to the <a href="#main">Main Menu</a>
+</p>
+
+</div>
+
+
+<div id="bo_acpi">
+<h3>
+<a name="bo_acpi">ACPI</a>
+</h3>
+
+<p>
+
+ACPI (Advanced Configuration and Power Interface) is a standard
+that defines power and configuration management interfaces
+between an operating system and the BIOS. By default,
+<em>acpi</em> is switched on when boot detects a BIOS newer than
+the year 2000. There are several commonly used parameters to
+control the behavior of ACPI: </p>
+
+<ul>
+    <li><em>pci=noacpi</em> -- do not use ACPI to route PCI interrupts</li>
+    <li><em>acpi=off</em> -- turn off ACPI completely</li>
+    <li><em>acpi=force</em> -- turn on ACPI, for pre-2000 BIOS</li>
+</ul>
+
+<p>
+Return to <a href="#mm_boot">Boot Options</a>
+ | <a href="#main">Main Menu</a>
+</p>
+
+</div>
+
+
+<div id="bo_no">
+<h3>
+<a name="bo_no">noXXXX</a>
+</h3>
+
+<p>
+Skips detection of or enables support for specific hardware.
+<p>
+<ul>
+    <li><em>noauto</em> -- turn off hardware autodetection</li>
+    <li><em>noparallel</em> -- turn off parallel printer support</li>
+    <li><em>nopcmcia</em> -- turn off PCMCIA support</li>
+    <li><em>nousb</em> -- turn off usb device probing</li>
+    <li><em>nousebios</em> -- enable NoUseBios mode needed for some Savage cards</li>
+    <li><em>smouse</em> -- enable only a serial mouse</li>
+    <li><em>swcursor</em> -- enable sw_cursor mode needed for some ATI and Trident cards</li>
+</ul>
+
+<p>
+Return to <a href="#mm_boot">Boot Options</a>
+ | <a href="#main">Main Menu</a>
+</p>
+
+</div>
+
+<div id="bo_pci">
+<h3>
+<a name="bo_pci">PCI</a>
+</h3>
+
+<p>
+Some PCI options:
+</p>
+
+<ul>
+    <li><em>pci=irqmask=0x0e98</em> -- try this if your PS/2 mouse doesn't work</li>
+    <li><em>pci=bios</em> -- workaround for bad PCI controllers</li>
+</ul>
+
+<p>
+Return to <a href="#mm_boot">Boot Options</a>
+ | <a href="#main">Main Menu</a>
+</p>
+
+</div>
+
+
+<div id="bo_ide">
+<h3>
+<a name="bo_ide">nodma</a>
+</h3>
+
+<p>
+To mitigate some hardware problems that occur with IDE hard
+drives, try this kernel parameter:
+
+</p>
+<p>
+<em>ide=nodma</em> -- switch off dma for IDE drives
+</p>
+
+<p>
+Return to <a href="#mm_boot">Boot Options</a>
+ | <a href="#main">Main Menu</a>
+</p>
+
+</div>
+
+<div id="about">
+<h3>
+<a name="about">Information about MX Linux</a>
+</h3>
+
+<p>
+
+<ul>
+<li>Web site: https://mxlinux.org</li>
+<li>Forums: https://forum.mxlinux.org</li>
+</ul>
+
+<p>
+
+MX Linux is a midweight OS designed to combine an elegant and efficient
+desktop with simple configuration, solid performance, and medium-sized
+footprint. It is a collaborative product from the Mepis and antiX
+developers and communities, relying on the excellent upstream work by
+Linux, Debian, and Xfce.
+
+</p>
+<p>
+
+MX Linux is compiled to work with Pentium-class Intel and AMD 486 processors
+or better with at least 512 Meg of RAM.  MX Linux will not work with 386
+class processors. To install MX Linux on a hard drive, a minimum of 5 GB is
+needed.  We recommend at least 1 Gig of RAM, 10 Gig of free hard
+drive space, and an i686 processor or better.
+
+</p>
+
+<p>
+Return to the <a href="#main">Main Menu</a>
+</p>
+
+</div>
+
+</body>
+</html>

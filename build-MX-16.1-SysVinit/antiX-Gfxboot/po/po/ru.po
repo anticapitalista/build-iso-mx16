@@ -1,0 +1,163 @@
+# LANGUAGE translations for boot loader
+# Copyright (C) 2005 SUSE Linux GmbH
+# 
+# Translators:
+# Translators:
+# Вячеслав Волошин <vol_vel@mail.ru>, 2015-2016
+msgid ""
+msgstr ""
+"Project-Id-Version: antix-development\n"
+"PO-Revision-Date: 2016-06-03 08:36+0000\n"
+"Last-Translator: Вячеслав Волошин <vol_vel@mail.ru>\n"
+"Language-Team: Russian (http://www.transifex.com/anticapitalista/antix-development/language/ru/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ru\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n%100>=11 && n%100<=14)? 2 : 3);\n"
+
+#. ok button label
+#. txt_ok
+msgid "OK"
+msgstr "Да"
+
+#. cancel button label
+#. txt_cancel
+msgid "Cancel"
+msgstr "Отмена"
+
+#. txt_boot_harddisk
+msgid "Boot from Hard Disk"
+msgstr "Загрузка с жёсткого диска"
+
+#. txt_memtest
+msgid "Memory Test"
+msgstr "Проверка памяти"
+
+#. txt_bootoptions
+msgid "Boot Options"
+msgstr "Параметры загрузки"
+
+#. window title for exit dialog
+#. txt_exit_title (see txt_exit_dialog)
+msgid "Exiting..."
+msgstr "Выход..."
+
+#. txt_help
+msgid "Help"
+msgstr "Помощь"
+
+#. power off dialog title
+#. txt_power_off_title
+msgid "Power Off"
+msgstr "Выключить питание"
+
+#. txt_power_off
+msgid "Halt the system now?"
+msgstr "Остановить систему?"
+
+#. label for language selection
+#. txt_language
+msgid "Language"
+msgstr "Язык"
+
+#. video mode/display size menu title
+#. ** please keep it really short (comparable to the english text) **
+#. txt_video_mode
+msgid "Video Mode"
+msgstr "Разрешение"
+
+#. Like automatic, not automobile.
+#. txt_auto
+msgid "auto"
+msgstr "авторежим"
+
+#. Perform md5 check. "md5" should not be translated?
+#. txt_check_md5
+msgid "check md5"
+msgstr "Проверка md5"
+
+#. Title for console resolution menu.  Please keep it short.
+#. txt_console
+msgid "Console"
+msgstr "Консоль"
+
+#. As in "the default option".  Please keep it short.
+#. txt_default
+msgid "default"
+msgstr "по умолчанию"
+
+#. Title of menu to select desktop program.
+#. txt_desktop
+msgid "Desktop"
+msgstr "Рабочий стол"
+
+#. Default for Options menu.  Please keep it short.
+#. txt_none
+msgid "none"
+msgstr "ни один"
+
+#. Enable automatic mounting.
+#. txt_automount
+msgid "auto mount"
+msgstr "автоподключение"
+
+#. Title of Options menu.  Please keep it short.
+#. txt_options
+msgid "Options"
+msgstr "Настройки"
+
+#. Title of Time Zone menu.
+#. txt_timezone
+msgid "Timezone"
+msgstr "Часовой пояс"
+
+#. Please keep it short like the English
+#. txt_off
+msgid "off"
+msgstr "выкл."
+
+#. Please keep it short like the English
+#. txt_menus
+msgid "menus"
+msgstr "меню"
+
+#. Please keep it short like the English
+#. txt_custom
+msgid "custom"
+msgstr "другое"
+
+#. Please keep it short like the English
+#. txt_both
+msgid "both"
+msgstr "оба"
+
+#. Please keep it short like the English
+#. txt_reset
+msgid "reset"
+msgstr "сбросить"
+
+#. Please keep it short like the English
+#. txt_save
+msgid "Save"
+msgstr "Сохранить"
+
+#. txt_reboot
+msgid "Reboot"
+msgstr "Перезагрузить"
+
+#. txt_safe_video_mode
+msgid "Safe Video Mode"
+msgstr "Безопасный видеорежим"
+
+#. txt_failsafe_boot
+msgid "Failsafe Boot"
+msgstr "Безопасная загрузка"
+
+#. txt_command_line_boot
+msgid "Command Line Boot"
+msgstr "Загрузка из командной строки"
+
+#. txt_fast_boot
+msgid "Fast Boot"
+msgstr "Быстрая загрузка"

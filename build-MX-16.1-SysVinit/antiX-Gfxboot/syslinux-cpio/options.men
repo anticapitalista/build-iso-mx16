@@ -1,0 +1,20 @@
+none            `
+checkmd5        `checkmd5
+checkfs         `checkfs
+toram           `toram
+from=usb        `from=usb
+nousb2          `nousb2
+automount       `automount
+mount=usb       `mount=usb
+mount=all       `mount=all
+mount=off       `mount=off
+acpi=off        `acpi=off
+hwclock=ask     `hwclock=ask
+hwclock=utc     `hwclock=utc
+hwclock=local   `hwclock=local
+password        `password
+nostore         `nostore
+dostore         `dostore
+savestate       `savestate
+nosavestate     `nosavestate
+bootchart       `bootchart initcall_debug printk.time=y
